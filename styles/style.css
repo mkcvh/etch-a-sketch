@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    height: 400px;
+    width: 400px;
+    grid-gap: 1px;
+    
+}
+
+.boxes {
+    background-color: aqua;
+}
