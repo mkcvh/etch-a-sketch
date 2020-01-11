@@ -1,15 +1,47 @@
 body {
     text-align: center;
+    background: url(../images/background.jpg);
+    font-family: "Press Start 2P";
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 20px;
+}
+
+button, select {
+    font-family: "Press Start 2P";
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px;
+}
+main {
+    display: inline-block;
+}
+
+header {
+    height: 80px;
+}
+
+.menu {
+    padding: 10px;
 }
 
 .container {
     display: grid;
-    height: 400px;
-    width: 400px;
+    height: 790px;
+    width: 790px;
+    background-color: ghostwhite;
     grid-gap: 1px;
-    
 }
 
 .boxes {
-    background-color: aqua;
+    background-color: white;
 }
+
+

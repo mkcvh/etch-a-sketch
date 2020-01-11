@@ -2,10 +2,31 @@
 <html>
 <head>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Etch-A-Sketch</title>
 </head>
 <body>
+    <header>
+        <h1>Etch-A-Sketch!</h1>
+        <h2>Discover your inner pixel artist. </h2>
+    </header>
+    <main>
+    <div class="menu">
+    <button id="setDimension">Set Dimension</button>
+    <button id="clearGrid">Clear Grid</button>
+        <select class="colorSelector">
+            <option selected="selected" value="black" >Black</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="aqua">Aqua</option>
+            <option value="grey">Grey</option>
+            <option value="random">Random<option>
+            <option value="shade">Shade</option>
+        </select>
+    </div>
     <div class="container"></div>
+    </main>
+    <footer></footer>
 </body>
 <script src='scripts/script.js'></script>
 </html>
